@@ -56,7 +56,7 @@ class Board008() : BoardBuilder() {
             addAccessorie(1, 5, RedFlowers, 50)
             addAccessorie(3, 1, OrangeFlowers, 20)
             addBoardCounter(3, 5)
-            addWatcher(1,3)
+            addWatcher(1, 3)
 
         }
     }

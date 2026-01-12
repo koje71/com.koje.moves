@@ -12,7 +12,6 @@ import com.koje.moves.core.HorizontalTop
 import com.koje.moves.core.Left
 import com.koje.moves.core.OrangeFlowers
 import com.koje.moves.core.RedFlowers
-import com.koje.moves.core.Right
 import com.koje.moves.core.Top
 import com.koje.moves.core.TopLeft
 import com.koje.moves.core.TopRight
@@ -76,7 +75,7 @@ class Board043() : BoardBuilder() {
             addAccessorie(2, 6, OrangeFlowers, 100)
             addAccessorie(5, 7, BeachBall, 180)
             addBoardCounter(1, 3)
-            addWatcher(3,1)
+            addWatcher(3, 1)
 
         }
     }
@@ -86,14 +85,14 @@ class Board043() : BoardBuilder() {
             addRacoon(0, 4)
             addEgg(2, 7)
             addCat(4, 2)
-       //     addMilk(3, 0)
+            //     addMilk(3, 0)
             addFish(4, 6)
             addMouse(3, 7)
             addCheese(1, 5)
             addCheese(5, 4)
             addCheese(0, 1)
-            addHole(2, 1,1)
-            addHole(4, 4,1)
+            addHole(2, 1, 1)
+            addHole(4, 4, 1)
             addWater(4, 5)
             addWater(4, 1)
             addWater(5, 3)
@@ -110,7 +109,7 @@ class Board043() : BoardBuilder() {
             addCatPositionCheck(2, 2)
             addPause(500)
             addMove(2, 7, 2, 4)
-     //       addCatPositionCheck(3, 0) // Katze bei Milch
+            //       addCatPositionCheck(3, 0) // Katze bei Milch
             addPause(500)
             addMove(0, 1, 0, 4) // -> hier
             addPause(500)

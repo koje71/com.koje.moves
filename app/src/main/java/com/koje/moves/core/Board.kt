@@ -12,9 +12,7 @@ import com.koje.moves.core.actions.FishPositionCheck
 import com.koje.moves.core.actions.MouseDoublePositionCheck
 import com.koje.moves.core.actions.MousePositionCheck
 import com.koje.moves.core.actions.Move
-import com.koje.moves.core.actions.NextButtonClick
 import com.koje.moves.core.actions.Pause
-import com.koje.moves.core.actions.ReloadButtonClick
 import com.koje.moves.items.Bone
 import com.koje.moves.items.Cat
 import com.koje.moves.items.Cheese
@@ -22,10 +20,10 @@ import com.koje.moves.items.Dog
 import com.koje.moves.items.Egg
 import com.koje.moves.items.Fish
 import com.koje.moves.items.Hole
-import com.koje.moves.items.Racoon
 import com.koje.moves.items.Milk
 import com.koje.moves.items.Mouse
 import com.koje.moves.items.OneWay
+import com.koje.moves.items.Racoon
 import com.koje.moves.items.Water
 import com.koje.moves.items.xmas.Present
 import com.koje.moves.ui.MenuContent
@@ -34,7 +32,7 @@ import java.util.Date
 open class Board(val playground: Playground, val builder: BoardBuilder) :
     ComponentGroup(playground) {
 
-    val lookAt = Position(0f,0f)
+    val lookAt = Position(0f, 0f)
     var selection: Content? = null
     var moved: Content? = null
     var touchPos = Position()

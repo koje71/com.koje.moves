@@ -73,7 +73,7 @@ open class BoardBuilder {
     open fun autoplay(target: Board) {
     }
 
-    fun getIndex():Int{
+    fun getIndex(): Int {
         return list.indexOf(this)
     }
 

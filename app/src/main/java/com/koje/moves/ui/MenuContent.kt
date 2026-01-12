@@ -32,20 +32,20 @@ class MenuContent(val activity: MainActivity) : FrameLayoutBuilder.Editor {
                     add(Section(R.string.select_board, R.drawable.mouse) {
 
                         val list = BoardBuilder.filteredList()
-                        addLevelLine(this, 0,list)
-                        addLevelLine(this, 5,list)
-                        addLevelLine(this, 10,list)
-                        addLevelLine(this, 15,list)
-                        addLevelLine(this, 20,list)
-                        addLevelLine(this, 25,list)
-                        addLevelLine(this, 30,list)
+                        addLevelLine(this, 0, list)
+                        addLevelLine(this, 5, list)
+                        addLevelLine(this, 10, list)
+                        addLevelLine(this, 15, list)
+                        addLevelLine(this, 20, list)
+                        addLevelLine(this, 25, list)
+                        addLevelLine(this, 30, list)
 
                         addLevelStatusBar(this)
                     })
 
                     add(Section(R.string.theme, R.drawable.eye) {
                         addSkinSelectionButton(this, R.string.theme_none, None)
-                        addSkinSelectionButton(this, R.string.theme_xmas,Xmas)
+                        addSkinSelectionButton(this, R.string.theme_xmas, Xmas)
                     })
 
 
@@ -116,19 +116,19 @@ class MenuContent(val activity: MainActivity) : FrameLayoutBuilder.Editor {
     }
 
 
-    fun addLevelLine(target: LinearLayoutBuilder, index: Int,list:List<BoardBuilder>) {
+    fun addLevelLine(target: LinearLayoutBuilder, index: Int, list: List<BoardBuilder>) {
         with(target) {
             addLinearLayout {
                 setMarginsDP(0, 3, 0, 3)
                 setOrientationHorizontal()
                 for (i in 0..3) {
-                    addLevelButton(this, index + i,list)
+                    addLevelButton(this, index + i, list)
                     addView {
                         setWidthDP(4)
                         setHeightDP(10)
                     }
                 }
-                addLevelButton(this, index + 4,list)
+                addLevelButton(this, index + 4, list)
             }
         }
     }
@@ -213,7 +213,7 @@ class MenuContent(val activity: MainActivity) : FrameLayoutBuilder.Editor {
         target.setText("${playground.stars.get()}★ - $text: $solved/")
     }
 
-    fun addSkinSelectionButton(target: LinearLayoutBuilder, label:Int,value: String) {
+    fun addSkinSelectionButton(target: LinearLayoutBuilder, label: Int, value: String) {
         target.addLinearLayout {
             setGravityBottom()
             setOrientationHorizontal()
@@ -249,7 +249,7 @@ class MenuContent(val activity: MainActivity) : FrameLayoutBuilder.Editor {
         playground.releadBoard()
     }
 
-    fun addLevelButton(target: LinearLayoutBuilder, index: Int, list:List<BoardBuilder>) {
+    fun addLevelButton(target: LinearLayoutBuilder, index: Int, list: List<BoardBuilder>) {
         val builder = list.get(index)
 
         target.addFrameLayout {

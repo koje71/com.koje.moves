@@ -3,16 +3,12 @@ package com.koje.moves.boards.p060
 import com.koje.moves.boards.BoardBuilder
 import com.koje.moves.core.BeachBall
 import com.koje.moves.core.Board
-import com.koje.moves.core.Bottom
 import com.koje.moves.core.BottomLeft
 import com.koje.moves.core.BottomRight
 import com.koje.moves.core.Horizontal
-import com.koje.moves.core.HorizontalBottom
 import com.koje.moves.core.HorizontalTop
-import com.koje.moves.core.Left
 import com.koje.moves.core.OrangeFlowers
 import com.koje.moves.core.RedFlowers
-import com.koje.moves.core.Right
 import com.koje.moves.core.Top
 import com.koje.moves.core.TopLeft
 import com.koje.moves.core.TopRight
@@ -80,7 +76,7 @@ class Board044() : BoardBuilder() {
             addAccessorie(2, 6, OrangeFlowers, 100)
             addAccessorie(0, 5, BeachBall, 180)
             addBoardCounter(3, 2)
-            addWatcher(3,6)
+            addWatcher(3, 6)
 
         }
     }
@@ -91,8 +87,8 @@ class Board044() : BoardBuilder() {
             addEgg(5, 4)
             addCat(5, 2)
             addFish(0, 6)
-            addHole(5, 0,1)
-            addHole(1, 3,1)
+            addHole(5, 0, 1)
+            addHole(1, 3, 1)
             addCat(0, 4)
             addWater(4, 5)
             addWater(1, 4)
@@ -121,7 +117,7 @@ class Board044() : BoardBuilder() {
             addMove(0, 2, 5, 5)
             addPause(500)
             addMove(1, 6, 4, 7)
-            addMousePositionCheck(1,4)
+            addMousePositionCheck(1, 4)
             addPause(2000)
         }
     }

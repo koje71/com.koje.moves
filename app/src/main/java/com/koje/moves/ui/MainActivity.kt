@@ -3,10 +3,8 @@ package com.koje.moves.ui
 import androidx.activity.OnBackPressedCallback
 import com.koje.framework.App
 import com.koje.framework.events.Notifier
-import com.koje.framework.utils.IntPreference
 import com.koje.framework.view.BaseActivity
 import com.koje.framework.view.FrameLayoutBuilder
-import com.koje.moves.BuildConfig
 import com.koje.moves.R
 import com.koje.moves.core.Playground
 

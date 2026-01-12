@@ -62,7 +62,7 @@ class Board002() : BoardBuilder() {
             addAccessorie(3, 2, Solution01, 5)
 
             addBoardCounter(1, 3)
-            addWatcher(1,4)
+            addWatcher(1, 4)
         }
     }
 

@@ -78,7 +78,7 @@ class Board032() : BoardBuilder() {
             addAccessorie(4, 3, BeachBall, 50)
 
             addBoardCounter(4, 5)
-            addWatcher(1,1)
+            addWatcher(1, 1)
 
         }
     }

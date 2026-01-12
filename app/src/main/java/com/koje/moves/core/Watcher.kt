@@ -1,10 +1,7 @@
 package com.koje.moves.core
 
-import com.koje.framework.App
 import com.koje.framework.graphics.ComponentGroup
 import com.koje.framework.graphics.Position
-import com.koje.moves.R
-import com.koje.moves.boards.BoardBuilder
 import com.koje.moves.ui.MenuContent
 import kotlin.math.abs
 import kotlin.math.atan
@@ -21,8 +18,8 @@ open class Watcher(val board: Board, val x: Int, val y: Int) :
     init {
         plane = 2
 
-        addEye(Position(-0.17f,0f))
-        addEye(Position(+0.17f,0f))
+        addEye(Position(-0.17f, 0f))
+        addEye(Position(+0.17f, 0f))
 
         addProcedure {
             move(position)
@@ -35,7 +32,7 @@ open class Watcher(val board: Board, val x: Int, val y: Int) :
         }
     }
 
-    fun addEye(position: Position){
+    fun addEye(position: Position) {
         addImageComponent {
             image = board.surface.picmap
             index = 50
@@ -73,7 +70,7 @@ open class Watcher(val board: Board, val x: Int, val y: Int) :
         }
     }
 
-    companion object{
+    companion object {
         var move = false
     }
 }

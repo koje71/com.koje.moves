@@ -38,8 +38,8 @@ open class Animal(board: Board, xPos: Int, yPos: Int) : Content(board, xPos, yPo
             else -> imageIndexDefault
         }
 
-        if(target == field && onTheRun!=None){
-            val route = when(onTheRun){
+        if (target == field && onTheRun != None) {
+            val route = when (onTheRun) {
                 Left -> Right
                 Right -> Left
                 Top -> Bottom
@@ -51,7 +51,7 @@ open class Animal(board: Board, xPos: Int, yPos: Int) : Content(board, xPos, yPo
             if (targetNew != null && targetNew.isOpenFor(this, onTheRun)) {
                 direction = route
                 target = targetNew
-            }else {
+            } else {
                 val routes = mutableListOf(Left, Right, Top, Bottom)
                 routes.remove(onTheRun)
                 routes.remove(route)
@@ -62,7 +62,7 @@ open class Animal(board: Board, xPos: Int, yPos: Int) : Content(board, xPos, yPo
                     target = targetNew
                 }
             }
-        }else if (shocked) {
+        } else if (shocked) {
             // keine Bewegung, wenn unter Shock
             target = field
         } else {
@@ -111,7 +111,7 @@ open class Animal(board: Board, xPos: Int, yPos: Int) : Content(board, xPos, yPo
                 return
             }
 
-            if(neighbor.isEnemyFor(this)){
+            if (neighbor.isEnemyFor(this)) {
                 onTheRun = direction
                 return
             }

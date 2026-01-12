@@ -114,17 +114,18 @@ class AboutContent(val activity: MainActivity) : FrameLayoutBuilder.Editor {
         }
     }
 
-    fun shareUrl(){
-            val url = "https://play.google.com/store/apps/details?id=com.koje.moves"
+    fun shareUrl() {
+        val url = "https://play.google.com/store/apps/details?id=com.koje.moves"
 
-            with(Intent()) {
-                setAction(Intent.ACTION_SEND)
-                setType("text/plain")
-                putExtra(Intent.EXTRA_TEXT, url)
-                activity.startActivity(Intent.createChooser(this, "Share using"))
-            }
+        with(Intent()) {
+            setAction(Intent.ACTION_SEND)
+            setType("text/plain")
+            putExtra(Intent.EXTRA_TEXT, url)
+            activity.startActivity(Intent.createChooser(this, "Share using"))
+        }
 
     }
+
     fun addQrCodeOverlay(target: FrameLayoutBuilder) {
         with(target) {
             addRelativeLayout {

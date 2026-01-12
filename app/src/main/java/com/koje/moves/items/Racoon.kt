@@ -28,7 +28,7 @@ class Racoon(board: Board, xPos: Int, yPos: Int) : Animal(board, xPos, yPos) {
     }
 
     override fun isEnemyFor(other: Animal): Boolean {
-        if(other.direction!= None){
+        if (other.direction != None) {
             return false
         }
 

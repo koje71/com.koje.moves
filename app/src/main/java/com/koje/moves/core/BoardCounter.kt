@@ -21,7 +21,7 @@ open class BoardCounter(val board: Board, val x: Int, val y: Int) :
 
         addImageComponent {
             image = board.surface.picmap
-            index = if("de" == App.getString(R.string.language)) 36 else 35
+            index = if ("de" == App.getString(R.string.language)) 36 else 35
             count = 100
             color = textColor
         }

@@ -20,14 +20,14 @@ class Mouse(board: Board, xPos: Int, yPos: Int) :
     override fun update() {
         super.update()
 
-        if(!Watcher.move && direction != None && isFirstMouse()){
+        if (!Watcher.move && direction != None && isFirstMouse()) {
             board.lookAt.copyFrom(position)
         }
     }
 
-    fun isFirstMouse(): Boolean{
+    fun isFirstMouse(): Boolean {
         board.content.forEach {
-            if(it is Mouse){
+            if (it is Mouse) {
                 return it == this
             }
         }
