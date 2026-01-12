@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black50">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white90">#BABABA</color>
+    <color name="white50">#50FFFFFF</color>
+    <color name="cheese">#DDCC2E</color>
+
+    <color name="functionBackground">#0A1206</color>
+    <color name="buttonClick">#C080FF</color>
+    <color name="separator">#FFFFFF</color>
+    <color name="solved">#F4ED9D</color>
+    <color name="sectionHeader">#7F6929</color>
+    <color name="failed">#EB5252</color>
+    <color name="transparent">#00000000</color>
+    <color name="gameBackground">#745A5A</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="sectionHeaderBackground">#995B46</color>
+    <color name="sectionHeaderBackground2">#40B26EC1</color>
+    <color name="accentB1">#C1C3D2</color>
+    <color name="accentB3">#B388FF</color>
+    <color name="boardLabel">#E1B870</color>
+</resources>

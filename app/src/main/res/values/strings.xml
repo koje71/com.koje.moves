@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">Cheese Move</string>
+    <string name="impressum_header">Imprint</string>
+    <string name="impressum_text">Jens Kochanski\nMagdeburger Straße 8E\n64372 Ober Ramstadt (Germany)\nEmail: koje.development@gmail.com\nThreema: https://threema.id/SBATJTRX</string>
+    <string name="licenses_header">Licenses</string>
+    <string name="licenses_hint">This app includes the following additional components and moduls:</string>
+    <string name="licenses_text1">Google Inc.:\n - androidx\n - material</string>
+    <string name="licenses_text2">Licensed under the Apache License, Version 2.0 (the \"License\");you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\"</string>
+    <string name="download_header">"Download"</string>
+    <string name="language">"en"</string>
+    <string name="select_board">"Select Board"</string>
+    <string name="theme">Theme</string>
+    <string name="developer_settings">Developer Settings</string>
+    <string name="theme_xmas">Xmas</string>
+    <string name="theme_none">None</string>
+    <string name="about_button">➽   About this App</string>
+    <string name="help_button">Help (3★)</string>
+    <string name="solved">solved</string>
+    <string name="collected">collected</string>
+    <string name="privacy_header">Privacy</string>
+    <string name="privacy_text">When using this app, we do not collect, process, or share any personal data with third parties.</string>
+    <string name="instruction_header">Instructions</string>
+    <string name="instruction_text">The movable objects on the playing field must be moved so that the mouse can collect everything, without being caught by the cat.\n\n🐁 The mouse: collects cheese and water\n\n🐈 The cat: collects fish and milk, is afraid of the dog and the raccoon\n\n🐕 The dog: collects bones, is afraid of the raccoon\n\n🦝 The raccoon: collects eggs</string>
+</resources>

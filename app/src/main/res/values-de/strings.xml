@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="impressum_header">Impressum</string>
+    <string name="impressum_text">Jens Kochanski\nMagdeburger Straße 8E\n64372 Ober Ramstadt (Germany)\nEmail: koje.development@gmail.com\nThreema: https://threema.id/SBATJTRX</string>
+    <string name="licenses_header">Lizenzen</string>
+    <string name="licenses_hint">Diese App verwendet die folgenden Componente und Module:</string>
+    <string name="licenses_text1">Google Inc.:\n  - androidx\n - material</string>
+    <string name="licenses_text2">Lizenziert unter der Apache-Lizenz, Version 2.0 (die \"Lizenz\"); Sie dürfen diese Datei nur in Übereinstimmung mit der Lizenz verwenden. Eine Kopie der Lizenz können Sie unter http://www.apache.org/licenses/LICENSE-2.0 erhalten. Sofern nicht nach geltendem Recht vorgeschrieben oder schriftlich vereinbart, wird Software, die unter der Lizenz verteilt wird, \"WIE BESEHEN\" bereitgestellt, OHNE JEGLICHE GARANTIEN ODER BEDINGUNGEN, weder ausdrücklich noch stillschweigend. Siehe die Lizenz für die spezifischen Bestimmungen zu Berechtigungen und Einschränkungen unter der Lizenz.</string>
+    <string name="download_header">Herunterladen</string>
+    <string name="language">de</string>
+    <string name="select_board">Level</string>
+    <string name="theme">Ansicht</string>
+    <string name="developer_settings">Entwickleroptionen</string>
+    <string name="theme_xmas">Weihnachten</string>
+    <string name="theme_none">Normal</string>
+    <string name="about_button">➽   Über diese App</string>
+    <string name="help_button">Hilfe (3★)</string>
+    <string name="solved">gelöst</string>
+    <string name="collected">gesammelt</string>
+    <string name="privacy_header">Datenschutz</string>
+    <string name="privacy_text">Bei Nutzung dieser App werden von uns keine personenbezogenen Daten erhoben, verarbeitet oder an Dritte weitergegeben.</string>
+    <string name="instruction_header">Ziel des Spiels</string>
+    <string name="instruction_text">Die beweglichen Gegenstände auf dem Spielfeld müssen so verschoben werden, dass die Maus alles einsammeln kann, ohne von der Katze geschnappt zu werden.\n\n🐁 Die Maus: sammelt Käse und Wasser\n\n🐈 Die Katze: sammelt Fisch und Milch, hat Angst vor dem Hund und dem Waschbären\n\n🐕 Der Hund: sammelt Knochen, hat Angst vor den Waschbär\n\n🦝 Der Waschbär: sammelt Eier</string>
+</resources>
